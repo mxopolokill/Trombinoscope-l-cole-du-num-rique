@@ -3,8 +3,8 @@
 
 
 $API = new APICALL;
-$API->Url = "http://app-d6e4214a-9a28-46b5-967f-565f071952c1.cleverapps.io/students";
+$API->url = "https://www.lecoledunumerique.fr/wp-json/wp/v2/apprenants";
 
-$Myjson = $API->curl1($API->Url);
+$Myjson = $API->curl1($API->url);
 
 include "views/view.php";
