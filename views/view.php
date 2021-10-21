@@ -4,9 +4,7 @@
 
 
 include "./views/header.php";
-include "./style/styleheader.php";
 
-include "./style/stylecard.php";
 include "./views/viewerror.php";
 
 
@@ -42,11 +40,14 @@ echo '<div class="card" style="width: 30%">';
                     echo '<a href="'. $Apprenant->cv .'" class="btn btn-primary"><i class="fas fa-file-pdf"></i></a>';
             echo '</div>';
 
-echo '</div>';
-echo '</div>';
-
+      echo '</div>';
+      echo '</div>';
+  
  
 
 
 
 }
+
+   echo '</body>';
+echo '</html>';
