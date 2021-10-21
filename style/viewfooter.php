@@ -58,6 +58,7 @@ p{
     text-transform: uppercase;
     line-height: 1.5em;
 }
+
 .label0{
 font-family: "Poppins",Sans-serif;
     font-weight: 400;

@@ -68,26 +68,42 @@
       </div>
     </nav>
     </header>
-    <div>
-        <div>
-        <img class="Background41" src="./views/img/background.jpg" alt="a">
-        </div>
-        <div class="Titre111">
-        <b><h1>
-   <span>Trombinoscope ecole du numérique&nbsp</span></b>
-    numérique</h1>
-    </div>
-    <div class="rectangle4"></div>
-    </div>
-    <div class="rectangle5"></div>
-    </div>
+   
+ <div class="filter0">  
+    <div class="SearchPromo">
 
-    <div class="filtre">
-    
-    
-    </div>
+    <label for="">choix promotion</label>
+    <select name="" id="">
+        <option value="">choix de la promotion</option>
+        <option value="">Promotion 1</option>
+        <option value="">Promotion 2</option>
+        <option value="">Promotion 3</option>
+    </select>
+  </div>
 
-    
+  <div class="competence">
+    <p>choisir la compétence ou les compétences:</p>
+
+<div>
+  <input type="checkbox" id="" name="">
+  <label for="">Back-End</label>
+</div>
+
+<div>
+  <input type="checkbox" id="" name="">
+  <label for="">Front-End</label>
+</div>
+</div>
+
+<div class="Blockinput">
+               
+   <input type="text" class="" placeholder="rechercher.." />
+     <button class="btn btn-primary" type="button">Confirmer</button>
+              
+</div>
+
+
+</div>
     <div class="GrosBlock">
     <div class="row">
     <div class="col-6 col-sm-6">';

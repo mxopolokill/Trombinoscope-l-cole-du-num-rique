@@ -50,5 +50,3 @@ echo '</div>';
 
 
 }
-include "./style/viewfooter.php";
-include "./views/footer.php";

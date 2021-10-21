@@ -89,42 +89,9 @@
 
 
 
-.Titre111{
-    position:absolute;
-    top:360px; 
-    width:600px; 
-    height:400px; 
-    z-index:3;
-    font-size:200%;
-    margin-left: 30%;
-    text-align: center;
-    color: white;
-    
-    
-}
 
-.couleurf{
-    color: #FFCC1D;
-    margin-bottom: 150px!important;
-    margin-left: 600px;
-}
 
-.rectangle4{
-    
-    width: 100%;
-        height:50px;
-        background:#069;
-        transform: rotate(0deg);
-    
-}
 
-.rectangle5{
-    position: absolute;
-    width: 100%;
-    height: 25.85px;
-    background: #b8a500;
-    transform: rotate(-0.5deg);   
-}
 
 .li.nav-item {
     padding: 9px 51px!important;
@@ -167,5 +134,365 @@
     display: flex;
     
 }
+
+
+
+label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.output {
+    position: relative;
+}
+
+.SearchPromo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 400px;
+    width: 200px;
+}
+
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+.filter0{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.competence{
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+
+.Blockinput{
+    margin-top: 140px;
+}
+
+@media (max-width: 867px) {
+    .dropdown-menu{
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu{
+        width: auto;
+    }
+
+    .dropdown-menu{ left: -131%;}
+
+    label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.output {
+    background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
+    position: relative;
+}
+
+.SearchPromo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 155px;
+    margin-left: 12px;
+    width: 200px;
+}
+
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+.filter0{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.competence{
+    margin-top: 120px;
+
+    
+}
+
+
+.Blockinput{
+    margin-top: 100px;
+}
+}
+
+@media (max-width: 1366px) {
+    .dropdown-menu{
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu{
+        width: auto;
+    }
+
+    .dropdown-menu{ left: -131%;}
+
+    label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.output {
+    background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
+    position: relative;
+}
+
+.SearchPromo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 155px;
+    margin-left: 12px;
+    width: 200px;
+}
+
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+.filter0{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.competence{
+    margin-top: 150px;
+
+    
+}
+
+
+.Blockinput{
+    margin-top: 175px;
+
+}
+}
+
+@media (max-width: 640px) {
+    .dropdown-menu{
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu{
+        width: auto;
+    }
+
+    .dropdown-menu{ left: -131%;}
+
+    label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.output {
+    background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
+    position: relative;
+}
+
+.SearchPromo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 155px;
+    margin-left: 12px;
+    width: 200px;
+}
+
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+.filter0{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.competence{
+    margin-top: 120px;
+
+    
+}
+
+
+.Blockinput{
+    margin-top: 100px;
+}
+}
+
+@media (max-width: 761px) {
+    .dropdown-menu{
+        width: 50%;
+    }
+    .dropdown-menu .dropdown-submenu{
+        width: auto;
+    }
+
+    .dropdown-menu{ left: -131%;}
+
+    label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.output {
+    background: center/cover no-repeat url('/media/cc0-images/hamster.jpg');
+    position: relative;
+}
+
+.SearchPromo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 155px;
+    margin-left: 90px;
+    width: 200px;
+}
+
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+.filter0{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.competence{
+    margin-top: 120px;
+    margin-left: 90px;
+    
+}
+
+
+.Blockinput{
+    margin-top: 100px;
+    margin-left: 90px;
+}
+}
+
+
+
+
+
+
+
+
+
 
 </style>
