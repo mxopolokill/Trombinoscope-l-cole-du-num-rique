@@ -1,5 +1,6 @@
 <?php
 /// Le controlleur des models 
 
-//  CardModel 
-include "./model/Cardmodel.php";
+///////////CardModel//////////////// 
+include "./model/Cardmodel.php"; //
+//////////////////////////////////
