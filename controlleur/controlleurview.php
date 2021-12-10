@@ -6,6 +6,6 @@ include "./app/template.php";//
 
 
 //Style CSS///////////////////////////////////
-include "./views/style/styleheader.php";   //
-include "./views/style/stylecard.php";    //
+include "./src/img/styleheader.php";   //
+include "./src/style/stylecard.php";    //
 ///////////////////////////////////////////
